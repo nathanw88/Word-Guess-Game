@@ -27,6 +27,8 @@ var guessGame = {
 
   ],
 
+
+
   hints : [
     "creates new array from array like or iterable object",
     "checks if passed value is an array",
@@ -69,6 +71,7 @@ var guessGame = {
 },
 
   newWord: function(){
+    this.guessGame = 6;
     this.lettersGuessed = [];
     this.letters =[];
     this.word = (this.arrayFunctions[Math.floor(Math.random() * this.arrayFunctions.length)]);
@@ -147,7 +150,7 @@ document.onkeyup = function(event) {
         if(guessGame.letters.join("") === guessGame.word){
           guessGame.score ++;
           document.getElementById("wins").textContent = "Wins: " + guessGame.score;
-          
+          document.getElementById("win_audio").play();
 
 
         }
