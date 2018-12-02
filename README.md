@@ -5,3 +5,5 @@ a game where you guess the letters of array functions it is case sensitive.
   when you guess correctly it will fill in all the correct letters. when you fill in all the spots you get a plus to the win collum, and will hear a chime.
   you can press the new word button at anytime to restart, hopefully after guessing all the letters correctly.
   ps. you can hit the hint button to reveal a descritpion of the function.
+  
+  The live link: https://nathanw88.github.io/Word-Guess-Game/
